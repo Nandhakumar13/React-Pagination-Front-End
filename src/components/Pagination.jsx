@@ -32,6 +32,7 @@ const Pagination = () => {
  //handler methods
 
  const pageNumberHandler = (n) => {
+    // setting the current page state value
     setCurrPage(n);
     // console.log("==result",products.slice(start,end));
     
